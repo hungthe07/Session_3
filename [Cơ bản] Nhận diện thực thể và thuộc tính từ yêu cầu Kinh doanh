@@ -1,0 +1,19 @@
+1) Event (Sự kiện)
+Các thuộc tính:
+- EventID – mã sự kiện (khóa chính)
+- EventName – tên sự kiện
+- EventDate – ngày tổ chức
+- VenueID – mã địa điểm (khóa ngoại)
+
+2) Venue (Địa điểm)
+Các thuộc tính:
+- VenueID – mã địa điểm (khóa chính)
+- VenueName – tên địa điểm
+- Address – địa chỉ
+- Capacity – sức chứa tối đa
+
+3) Customer (Khách hàng)
+Các thuộc tính:
+- CustomerID – mã khách hàng (khóa chính)
+- FullName – họ tên khách hàng
+- Email – email liên hệ
