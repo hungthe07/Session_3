@@ -1,0 +1,20 @@
+1. Mối quan hệ giữa Người Hướng Dẫn và Lớp Học
+Quan hệ: 1 : N (Một – Nhiều)
+Giải thích:
+- Trong bảng Lớp học, ta thấy "Anh Tuấn" hướng dẫn 2 lớp: G101, G201
+- "Chị Mai" hướng dẫn 1 lớp: G102
+- Một Người Hướng Dẫn có thể dạy nhiều Lớp học, nhưng mỗi Lớp học chỉ có 1 Người Hướng Dẫn.
+Vì vậy, quan hệ đúng là 1 người hướng dẫn – nhiều lớp học (1:N).
+
+2. Mối quan hệ giữa Thành Viên và Lớp Học
+Quan hệ: M : N (Nhiều – Nhiều)
+Giải thích:
+Nhìn vào bảng Đăng ký: 
+Một thành viên có thể đăng ký nhiều lớp
+- Ví dụ: Nguyễn Văn An đăng ký G101 và G201 => nhiều lớp.
+Một lớp học có thể có nhiều thành viên đăng ký
+- Ví dụ: Lớp G101 có: Nguyễn Văn An, Trần Thị Bình => nhiều thành viên.
+Cả hai chiều đều có "nhiều":
+- Một thành viên => nhiều lớp
+- Một lớp => nhiều thành viên
+=> Vì vậy, đây là quan hệ Nhiều–Nhiều (M:N)
